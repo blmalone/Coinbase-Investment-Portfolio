@@ -33,10 +33,10 @@ var myPortfolio = new TemplatePortfolio(114, 112);
 //The this keyword is a reference to the object that the function is inside.
 
 for (i = 0; i < 3; i++) {
-	document.write('Percentage gains: ' + myPortfolio.calculatePercentageReturn().toFixed(2) + '% </br>');
-	document.write('Percentage gains: ' + myPortfolio.calculatePercentageReturn().toFixed(2) + '% </br>');
-	document.write('Actual Return : &pound;' + myPortfolio.calculateReturn() + '</br>');
-	document.write('</br>')
+	// document.write('Percentage gains: ' + myPortfolio.calculatePercentageReturn().toFixed(2) + '% </br>');
+	// document.write('Percentage gains: ' + myPortfolio.calculatePercentageReturn().toFixed(2) + '% </br>');
+	// document.write('Actual Return : &pound;' + myPortfolio.calculateReturn() + '</br>');
+	// document.write('</br>')
 }
 
 
