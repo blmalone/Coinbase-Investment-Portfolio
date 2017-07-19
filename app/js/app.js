@@ -1,3 +1,12 @@
+function readText (form) {
+	apiKey = form.apiKeyInput.value;
+    apiSecret = form.apiSecretInput.value;
+    console.log("API Key: " + apiKey);
+    console.log("API Secret: " + apiSecret);
+    document.getElementsByName('apiKeyInput')[0].value = '';
+    document.getElementsByName('apiSecretInput')[0].value = '';
+}
+
 //Objects created with literal notation are good: 
 // - when you are storing/transmitting data between applications
 // - for global or configuration objects that set up information for the page

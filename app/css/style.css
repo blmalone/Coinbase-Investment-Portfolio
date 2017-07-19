@@ -4,7 +4,8 @@ body {
 	margin-left: auto;
 	width: 90%;
 	margin: 0 auto;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: "Courier New", Courier, monospace;
+	background-color: #afbdd3;
 }
 
 #summary, #currencies {
@@ -16,6 +17,7 @@ body {
 }
 
 .cryptoTitle {
+	font-style: italic;
 	margin-top: 1%;
 	margin-bottom: 3%;
 	float: top;
@@ -52,13 +54,20 @@ body {
 	overflow: auto;
 	float: left;
 	border-right: 1px solid #000000;
-	width: 48%;
+	width: 55%;
 }
 
 #currenciesRight {
+	text-align: right;
 	overflow: auto;
-	width: 48%;
+	width: 41%;
 	float: left;
+}
+
+#disclaimer {
+	font-style: italic;
+	font-size: 14px;
+	text-align: left;
 }
 
 
