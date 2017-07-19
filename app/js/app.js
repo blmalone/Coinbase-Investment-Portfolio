@@ -1,4 +1,4 @@
-function readText (form) {
+function readApiInfo (form) {
 	apiKey = form.apiKeyInput.value;
     apiSecret = form.apiSecretInput.value;
     console.log("API Key: " + apiKey);
