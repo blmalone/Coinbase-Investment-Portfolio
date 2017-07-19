@@ -69,37 +69,3 @@ body {
 	font-size: 14px;
 	text-align: left;
 }
-
-
-/*		<div id="currencies">
-			Bitcoin
-			<div id="currenciesLeft">
-				<div class="currentPrice">Price: </div>
-				<div class="losses">Losses: </div>
-				<div class="gains">Gains: </div>
-				<div class="invested">Invested: </div>
-				<div class="advice">Advice: </div>
-			</div>
-			<div id="currenciesRight">
-				<div id="currentPrice">£0.00 </div>
-				<div id="losses">£0.00 </div>
-				<div id="gains">£0.00 </div>
-				<div id="invested">£0.00 </div>
-				<div id="advice">Buy 20% </div>
-			</div>
-		</div>*/
-
-/*.money1, .money2, .money3 {
-	font-size: 14px;
-	font-style: italic;
-	overflow: hidden;
-	background-color: lightgrey;
-	padding-top: 2px;
-	margin: 1%;
-	float: left;
-	width: 31.3%;
-	border-radius: 5px;
-	text-indent: 10px;
-	box-shadow: 2px 2px 2px #777777;
-	height: 200px;
-}*/
